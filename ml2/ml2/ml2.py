@@ -43,7 +43,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageOps
 
 
-# Load your trained model
+# Loading the trained model
 model = load_model('mnist_model.h5')
 
 def predict_digit(canvas):
